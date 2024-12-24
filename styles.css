@@ -1,0 +1,66 @@
+/* Reset de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f51313;
+    background-image: url('background.webp');
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #fdfdfd;
+    color: rgb(184, 106, 106);
+    padding: 30px 0;
+    border-radius: 10px;
+
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Mensaje de saludo */
+  .greeting {
+    background-color: #00ff3c;
+    color: white;
+    padding: 40px;
+    font-size: 1.35rem;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para las imágenes */
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
